@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - oraclejdk7
+install:
+  - sudo apt-get -y install nasm
+script: "./run.sh"
