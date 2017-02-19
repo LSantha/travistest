@@ -5,7 +5,7 @@ install:
   - sudo apt-get -y install nasm
 script: "./run.sh"
 addons:
-	apt:
-		packages:
-			- qemu
+  apt:
+    packages:
+      - qemu
 
